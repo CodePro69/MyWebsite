@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="fr">
+<head>
+ <meta charset="UTF-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title> Posts</title> 
+ <link rel="stylesheet" href="../CSS/style.css" type="text/css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
+ </head>
+
+ <body>
+  <header>
+    <div class="brand">The Wasup Forum</div>
+
+    <style>
+    
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .mobile-container {
+          max-width: 480px;
+          margin: auto;
+          background-color: #555;
+          height: 500px;
+          color: white;
+          border-radius: 10px;
+        }
+        
+        .topnav2 {
+          overflow: hidden;
+          position: relative;
+    
+        }
+        
+        .topnav #myLinks {
+          display: none;
+          color:rgb(6, 126, 56);
+        }
+        
+        .topnav a {
+          color: white;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+          display: block;
+        }
+        
+        .topnav a.icon {
+          background: black;
+          display: block;
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        
+        .topnav a:hover {
+          background-color: rgb(6, 126, 56);
+          color: black;
+        }
+        
+        .active {
+          background-color: #04AA6D;
+          color: white;
+        }
+    
+    
+    </style>
+    
+      </head>
+    
+      <header>
+        <!--NavBar Section-->
+          <div class="topnav2">
+            <div id="myLinks">
+              <a href="../html/forum.html">Forum</a>
+              <a href="../html/details.html">Details</a>
+        </div>
+        </div>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        </div>
+        
+        <div style="padding-left:16px">
+        </div>
+
+        <script>
+          function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+          }
+          </script>
+
+    <!---SearchBox Section-->
+    <div class="search box">
+        <div>
+            <select name="" id="">
+            <option value="Everything">Everything</option>
+            <option value="Titles">Titles</option>
+            <option value="Descriptions">Descriptions</option>   
+            </select>
+            <input type="text" name="q" placeholder="search ...">
+            <button><i class="fa fa-search"></i></button>
+        </div>
+    </div>
+   </header>
+   <div class="container">
+
+    <!---Navigation-->
+    <div class="navigate">
+        <span><a href="">My forum- forums</a> >> <a href=""></a></span>
+    </div>
+   
+    <!---Display posts table-->
+    <div class="posts-table">
+      <div class="table head">
+        <div class="status">Status</div>
+        <div class="subjects">Subjects</div>
+        <div class="replies">Replies</div>
+        <div class="last-reply">Last Reply</div>
+      </div>
+      <div class="table-row">
+        <div class="status"><i class="fa fa-fire"></i></div>
+        <div class="subjects">
+          <a href="">Is learning Python on 2021 worth it?</a>
+          <br>
+          <span>Started by <b><a href="">User</a></b> .</span>
+        </div>
+        <div class="replies">
+          2 replies <br> 125 views
+        </div>
+        <div class="last-reply">
+          Oct 12 2021
+          <br>By <b><a href="">User</a></b>
+      </div>
+  </div>
+
+        <div class="table-row">
+          <div class="status"> <i class="fa fa-book"></i></div>
+          <div class="subjects">
+            <a href="">Is learning Python on 2021 worth it?</a>
+            <br>
+            <span>Started by <b><a href="">User</a></b> .</span>        
+          </div>
+          <div class="replies">
+            2 replies <br> 125 views
+          </div>
+
+          <div class="last-reply">
+          Oct 12 2021
+          <br> By <b><a href="">User</a></b>  
+          </div>
+        </div>
+
+        <div class="table-row">
+          <div class="status"><i class="fa fa-frown-o"></i></div>
+          <div class="subjects">
+            <a href="">Is learning Python on 2021 worth it?</a>
+            <br>
+            <span>Started by <b> <a href="">User</a></b> .</span>
+          </div>
+          <div class="replies">
+            2 replies <br> 123 views  
+          </div>
+
+          <div class="table-row">
+            <div class="status"> <i class="fa fa-fire"></i></div>
+            <div class="subjects">
+              <a href="">Is learning Python on 2021 worth it?</a>
+              <br>
+              <span>Started by <b><a href="">User</a></b> .</span>
+            </div>
+            <div class="replies">
+              2 replies <br> 125 views
+            </div>
+
+            <div class="last-reply">
+              12 Oct 2021
+              <br>By <b><a href=""></a></b>
+            </div>
+          </div>
+
+          <div class="table-row">
+            <div class="status"><i class="fa fa-clock"></i></div>
+            <div class="subjects">
+              <a href="">Is learning Python on 2021 worth it?</a>
+              <br>
+              <span>Started by <b> <a href="">User</a></b> .</span>
+            </div>
+          <div class="replies">
+            2 replies <br> 123 views
+          </div>
+          
+          <div class="last-reply">
+            Oct 12 2021
+            <br> By <b><a href="">User</a></b>
+           </div>
+          </div>
+
+          <div class="table-row">
+            <div class="status"><i class="fa fa-fire"></i></div>
+            <div class="subjects">
+            <a href="">Is learning Python on 2021 worth it?</a>
+            <br>
+            <span>Started by <b><a href=""></a></b> .</span>
+            </div>
+
+            <div class="last-reply">
+              Oct 21 2021
+              <br>By <b><a href="">User</a></b>
+            </div>
+          </div>
+          <!---ends here-->
+        </div>
+
+        <!---Pagination starts-->
+      <div class="pagination">
+        pages: <a href="">1</a><a href="">2<a href="">3</a>
+      </div>
+      <!---Pagination ends-->
+    </div>
+
+    <div class="note">
+      <span><i class="fa fa-frown-o"></i>&nbsp; 0 Engagement Topic</span>&nbsp;&nbsp;&nbsp;<a href=""><i class="fa fa-share-square"></i></a><br>
+      <span><i class="fa fa-book"></i>&nbsp; Low Engagement Topic</span>&nbsp;&nbsp;&nbsp;<a href=""><i class="fa fa-share-square"></i></a><br>
+      <span><i class="fa fa-fire"></i>&nbsp; Popular Topic</span>&nbsp;&nbsp;&nbsp;<a href=""><i class="fa fa-share-square"></i></a><br>
+      <span><i class="fa fa-rocket"></i>&nbsp; High Engagement Topic</span>&nbsp;&nbsp;&nbsp;<a href=""><i class="fa fa-share-square"></i></a><br>
+      <span><i class="fa fa-lock"></i>&nbsp; Closed Topic</span>&nbsp;&nbsp;&nbsp;<a href=""><i class="fa fa-share-square"></i></a><br>
+  </div>
+
+  <footer>
+    <span>&copy; Simeone Stellato | All Rights Reserved to the original code of Selmi Abderrahim</span>
+   </footer>
+   <script src="main.js"></script>
+</body>
+</html>
